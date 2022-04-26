@@ -65,10 +65,10 @@ body {
     font-size: 1em;
     color: rgb(112, 112, 112);
 }
-.product-slider .slider-sidebar li.active {
+.product-slider .slider-sidebar a.active {
     background-color: rgb(241, 248, 254) !important;
 }
-.product-slider .slider-sidebar li.active::before {
+.product-slider .slider-sidebar a.active::before {
     position: absolute;
     left: 0px;
     border-radius: 0px 0.25em 0.25em 0px;
@@ -77,18 +77,16 @@ body {
     height: 50px;
     content: "";
 }
-.product-slider .slider-sidebar li.active a {
+.product-slider .slider-sidebar a.active  {
     color: rgb(43, 80, 194);
 }
-.product-slider .slider-sidebar li:hover {
+.product-slider .slider-sidebar a:hover {
     background-color: rgba(231, 231, 231, 0.8);
 }
-.product-slider .slider-sidebar li:hover a {
+.product-slider .slider-sidebar a:hover  {
     color: black;
 }
 .product-slider .slider .product {
-    display: flex;
-    flex-direction: column;
     padding: 0.5em;
     border: 1px solid rgb(238, 238, 238);
     background-color: rgb(255, 255, 255);
